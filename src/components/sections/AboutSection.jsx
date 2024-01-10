@@ -1,4 +1,4 @@
-import { CTAButton } from "../styles/common/CTAButton.styled";
+
 import {
   AboutContent,
   DarkCircle,
@@ -24,20 +24,11 @@ export const AboutSection = () => {
             Hello <StyledEmoji>👋</StyledEmoji>
           </StyledHeading>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus nam itaque maiores iusto repudiandae laborum
-            aspernatur optio eaque dolor, asperiores est ipsum repellat
-            molestias fugiat repellendus quibusdam ipsam. Corporis, facilis.
+            I'm an experienced front-end developer with a passion for learning and applying technical skills to build applications.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aut
-            assumenda, ratione, enim est voluptate modi perspiciatis dolor
-            consequatur maiores, veritatis corporis tempore placeat sit natus
-            asperiores excepturi. Quos, eum.
+          I have excellent hands-on software development experience in various enterprise applications including a SaaS-based product. I am an experienced developer that can be relied upon to take ownership of large projects. I have great collaboration and communication skills that enabled me to work well with product management, quality assurance, and frontend/backend engineers. I am very passionate about ensuring a good customer experience and I take extreme pride in my work. I also enjoy mentoring junior developers and interns.
           </p>
-          <CTAButton href="#" target="_blank">
-            Get Portfolio Course
-          </CTAButton>
         </AboutContent>
       </StyledAboutSection>
       <hr />

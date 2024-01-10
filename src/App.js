@@ -6,7 +6,6 @@ import { AboutSection } from "./components/sections/AboutSection";
 import { ContactSection } from "./components/sections/ContactSection";
 import { HeroSection } from "./components/sections/HeroSection";
 import { ProjectsSection } from "./components/sections/ProjectsSection";
-import { ServicesSection } from "./components/sections/ServicesSection";
 import { Container } from "./components/styles/common/Container.styled";
 import { GlobalStyles } from "./components/styles/Globals.styled";
 
@@ -34,7 +33,6 @@ function App() {
         <Container>
           <AboutSection />
           <ProjectsSection />
-          <ServicesSection />
           <ContactSection />
         </Container>
         <Footer />

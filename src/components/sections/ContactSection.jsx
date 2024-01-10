@@ -35,7 +35,7 @@ export const ContactSection = () => {
             </div>
           </ContactInfo>
           <ImageWrapper>
-            <img src="./images/chat.svg" alt="contact" />
+            <img src="./images/proud_coder.svg" alt="contact" />
           </ImageWrapper>
         </DetailsWrapper>
       </StyledContactSection>

@@ -1,32 +1,22 @@
 export const Projects = [
   {
-    thumbnail: "./images/sppms.png",
-    title: "Projects 1",
-    tags: ["React", "CSS", "Firebase"],
+    thumbnail: "./images/portfolio-2017-app.png",
+    title: "Portfolio 2017",
+    tags: ["Javascript", "React", "CSS", "Bootstrap"],
     paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam itaque maiores iusto repudiandae laborum aspernatur optio eaque dolor, asperiores est",
-    codelink: "#",
-    projectlink: "#",
+      "First react portfolio",
+    codelink: "https://github.com/maurajoglekar/react-portfolio-2017/tree/master",
+    projectlink: "https://github.com/maurajoglekar/react-portfolio-2017/tree/master",
     projectlinkText: "View Project",
   },
   {
-    thumbnail: "./images/rtk.png",
-    title: "Course 1",
-    tags: ["Node", "React", "CSS", "Redux"],
+    thumbnail: "./images/appointments-app.png",
+    title: "Appointments application",
+    tags: ["React", "Tailwind CSS"],
     paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam itaque maiores iusto repudiandae laborum aspernatur optio eaque dolor, asperiores est",
-    codelink: "#",
-    projectlink: "#",
-    projectlinkText: "View Course",
-  },
-  {
-    thumbnail: "./images/mern.jpg",
-    title: "Course 2",
-    tags: ["mern"],
-    paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam itaque maiores iusto repudiandae laborum aspernatur optio eaque dolor, asperiores est",
-    codelink: "#",
-    projectlink: "#",
-    projectlinkText: "View Course",
+      "Project built during linkedIn Learning class",
+    codelink: "https://github.com/maurajoglekar/myreact-2023/tree/appointments-app",
+    projectlink: "https://spectacular-beignet-0bfdbc.netlify.app/",
+    projectlinkText: "View Project",
   },
 ];

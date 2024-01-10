@@ -26,7 +26,6 @@ export const Footer = () => {
         <FooterNav>
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
-          <a href="#services">Services</a>
           <a href="#contact">Contact</a>
         </FooterNav>
         <CodedWith>Coded with React and Styled Components 💅</CodedWith>
