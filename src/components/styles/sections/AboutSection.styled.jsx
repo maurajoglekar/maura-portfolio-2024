@@ -110,7 +110,7 @@ export const AboutContent = styled.div`
   }
 
   li {
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     font-size: 1.3rem;
   }
 

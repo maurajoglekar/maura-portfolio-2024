@@ -100,7 +100,7 @@ export const HeroContent = styled.div`
     h1 {
       letter-spacing: 1rem;
       font-size: 1.5rem;
-      width: 29ch;
+      width: 31ch;
     }
     h3 {
       font-size: 2.2rem;
