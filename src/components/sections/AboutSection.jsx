@@ -24,10 +24,25 @@ export const AboutSection = () => {
             Hello <StyledEmoji>👋</StyledEmoji>
           </StyledHeading>
           <p>
-            I'm an experienced front-end developer with a passion for learning and applying technical skills to build applications.
+            My name is Maura Joglekar.  I'm originally from Mexico, lived in Colorado during my school years and now live in California.
           </p>
           <p>
-          I have excellent hands-on software development experience in various enterprise applications including a SaaS-based product. I am an experienced developer that can be relied upon to take ownership of large projects. I have great collaboration and communication skills that enabled me to work well with product management, quality assurance, and frontend/backend engineers. I am very passionate about ensuring a good customer experience and I take extreme pride in my work. I also enjoy mentoring junior developers and interns.
+          Most recently,  I worked at F5 as a principal frontend developer in two different products building them from the ground up. 
+          </p>
+          <ul>
+            <li>As part of the F5 Cloud services, I was a main contributor for the login flow, account management, subscription flows, services onboarding, and the billing enablement. 
+ </li>
+ <li>
+ As part of the NGINX product, I was the only frontend lead in the Analytics platform team building beautiful analytics dashboards to help customers identify, diagnose and solve issues.   
+
+ </li>
+          </ul>
+
+           <p>
+             Prior to that, I worked at Oracle as a experienced developer.  I was granted a patent for one of my projects and I worked closely with their biggest customer of that product to migrate billions of documents using that patented feature. 
+          </p>
+          <p>
+            I have great collaboration and communication skills that enabled me to work well with product management, quality assurance, and backend engineers. I am very passionate about ensuring a good customer experience and I take extreme pride in my work. I also enjoy mentoring junior developers and interns.
           </p>
         </AboutContent>
       </StyledAboutSection>

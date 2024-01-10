@@ -69,7 +69,7 @@ export const HeroContent = styled.div`
     font-weight: 400;
     overflow: hidden;
     white-space: nowrap;
-    width: 27ch;
+    width: 29ch;
     margin: auto;
     animation: ${typing} 5s steps(27), ${blink} 1s ease-in-out 8s infinite;
     border-right: 4px solid rgba(255, 255, 255, 1);

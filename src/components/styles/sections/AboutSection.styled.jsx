@@ -102,11 +102,16 @@ export const AboutContent = styled.div`
   flex-shrink: 1;
   flex-basis: 0;
 
-  p {
+  p, li {
     font-family: "Poppins", sans-serif;
     font-size: 1.4rem;
     text-align: justify;
     margin-bottom: 1.45rem;
+  }
+
+  li {
+    margin-left: 1.5rem;
+    font-size: 1.3rem;
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
