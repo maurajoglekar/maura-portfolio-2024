@@ -47,7 +47,7 @@ export const NavBar = () => {
                 {navItem.isProfile ? (
                   <NavLink href="#hero-section">
                     <Profile>
-                      <img src="./images/profile-pic.jpg" alt="Maura Joglekar" />
+                      <img src="./images/profile-pic.png" alt="Maura Joglekar" />
                       <span>Maura Joglekar</span>
                     </Profile>
                   </NavLink>

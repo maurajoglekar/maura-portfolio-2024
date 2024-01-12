@@ -15,7 +15,7 @@ export const AboutSection = () => {
     <>
       <StyledAboutSection id="about">
         <ImageContainer>
-          <StyledImage src="./images/profile-pic.jpg" alt="Maura Joglekar" />
+          <StyledImage src="./images/profile-pic.png" alt="Maura Joglekar" />
           <DarkCircle />
           <GradientCircle />
         </ImageContainer>
