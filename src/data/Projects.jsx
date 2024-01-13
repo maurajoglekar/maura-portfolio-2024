@@ -6,7 +6,7 @@ export const Projects = [
     paragraph:
       "First react portfolio",
     codelink: "https://github.com/maurajoglekar/react-portfolio-2017/tree/master",
-    projectlink: "https://github.com/maurajoglekar/react-portfolio-2017/tree/master",
+    projectlink: "https://wonderful-arithmetic-982bff.netlify.app/",
     projectlinkText: "View Project",
   },
   {
