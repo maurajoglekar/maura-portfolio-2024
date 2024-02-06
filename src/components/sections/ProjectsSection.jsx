@@ -1,4 +1,5 @@
 import { FaGithub, FaLink } from "react-icons/fa";
+import { SiCoursera } from "react-icons/si";
 import { Projects } from "../../data/Projects";
 import { SectionHeading } from "../styles/common/SectionHeading.styled";
 import {
@@ -51,6 +52,16 @@ export const ProjectsSection = () => {
                       <FaLink />
                       <span>{project.projectlinkText}</span>
                     </a>
+                    {project.courselink && (
+                      <a
+                        href={project.courselink}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <SiCoursera />
+                        <span>{project.courselinkText}</span>
+                      </a>
+                    )}
                   </div>
                 </ProjectDescription>
               </SingleProject>

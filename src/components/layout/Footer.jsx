@@ -30,7 +30,7 @@ export const Footer = () => {
         </FooterNav>
         <CodedWith>Coded with React and Styled Components 💅</CodedWith>
         <div>
-          &copy; December 2024 - {months[new Date().getMonth()]}{" "}
+          &copy; December 2023 - {months[new Date().getMonth()]}{" "}
           {new Date().getFullYear()}
         </div>
       </SyledFooter>
