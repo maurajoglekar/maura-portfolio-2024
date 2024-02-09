@@ -35,15 +35,16 @@ export const AboutSection = () => {
               As part of the F5 Cloud services, I was a main contributor for the
               login flow, account management, subscription flows, services
               onboarding, and the billing enablement. Used UI technologies
-              Javascript ES6, ReactJS, redux and styled components. Also did the
-              UI QA automation with selenium and python.
+              Javascript ES6, ReactJS, redux and styled components. Also did UI
+              QA automation with selenium and python.
             </li>
             <li>
               As part of the Nginx NMS product, I built beautiful analytics
               dashboards to help customers identify, diagnose and solve issues.
               Also I implemented the instance metrics, notifications and events
-              features using Typescript, ReactJS, and styled components. Also
-              did the UI QA automation with playwright and javascript.
+              features. Used UI technologies Typescript, ReactJS, and styled
+              components. Also did UI QA automation with playwright and
+              javascript.
             </li>
           </ol>
 
