@@ -7,7 +7,7 @@ import {
   SocialIcon,
 } from "../styles/sections/HeroSection.styled";
 import { FaArrowDown, FaGithub, FaLinkedin } from "react-icons/fa";
-import { TfiJsfiddle } from "react-icons/tfi";
+// import { TfiJsfiddle } from "react-icons/tfi";
 
 export const HeroSection = () => {
   return (
@@ -27,15 +27,18 @@ export const HeroSection = () => {
         <FaArrowDown />
       </StyledArrowDown>
       <HeroSocialIcons>
-        <SocialIcon href="https://www.linkedin.com/in/maura-joglekar/" target="_blank">
+        <SocialIcon
+          href="https://www.linkedin.com/in/maura-joglekar/"
+          target="_blank"
+        >
           <FaLinkedin />
         </SocialIcon>
         <SocialIcon href="https://github.com/maurajoglekar" target="_blank">
           <FaGithub />
         </SocialIcon>
-        <SocialIcon href="https://jsfiddle.net/user/fiddles/public/" target="_blank">
+        {/* <SocialIcon href="https://jsfiddle.net/user/fiddles/public/" target="_blank">
           <TfiJsfiddle />
-        </SocialIcon>
+        </SocialIcon> */}
       </HeroSocialIcons>
     </StyledHeroSection>
   );

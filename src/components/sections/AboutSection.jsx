@@ -49,7 +49,7 @@ export const AboutSection = () => {
           </ol>
 
           <p>
-            Prior to that, I worked at Oracle as a experienced developer. I was
+            Prior to that, I worked at Oracle as an experienced developer. I was
             granted a patent for one of my projects and I worked closely with
             their biggest customer of that product to migrate billions of
             documents using that patented feature.

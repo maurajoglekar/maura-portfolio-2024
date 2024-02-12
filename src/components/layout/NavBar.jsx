@@ -14,7 +14,7 @@ import {
   SocialIcons,
 } from "../styles/layout/Nav.styled";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { TfiJsfiddle } from "react-icons/tfi";
+// import { TfiJsfiddle } from "react-icons/tfi";
 import { CTAButton } from "../styles/common/CTAButton.styled";
 import useScrollDirection from "../../hooks/useScrollDirection";
 
@@ -47,7 +47,10 @@ export const NavBar = () => {
                 {navItem.isProfile ? (
                   <NavLink href="#hero-section">
                     <Profile>
-                      <img src="./images/profile-pic.png" alt="Maura Joglekar" />
+                      <img
+                        src="./images/profile-pic.png"
+                        alt="Maura Joglekar"
+                      />
                       <span>Maura Joglekar</span>
                     </Profile>
                   </NavLink>
@@ -57,19 +60,31 @@ export const NavBar = () => {
                 ) : null}
                 {navItem.hasSocialIcons ? (
                   <SocialIcons>
-                    <NavLink href="https://www.linkedin.com/in/maura-joglekar/" target="_blank">
+                    <NavLink
+                      href="https://www.linkedin.com/in/maura-joglekar/"
+                      target="_blank"
+                    >
                       <FaLinkedin />
                     </NavLink>
-                    <NavLink href="https://jsfiddle.net/user/fiddles/public/" target="_blank">
+                    {/* <NavLink
+                      href="https://jsfiddle.net/user/fiddles/public/"
+                      target="_blank"
+                    >
                       <TfiJsfiddle />
-                    </NavLink>
-                    <NavLink href="https://github.com/maurajoglekar" target="_blank">
+                    </NavLink> */}
+                    <NavLink
+                      href="https://github.com/maurajoglekar"
+                      target="_blank"
+                    >
                       <FaGithub />
                     </NavLink>
                   </SocialIcons>
                 ) : null}
                 {navItem.hasCTA ? (
-                  <CTAButton href="https://github.com/maurajoglekar/maura-portfolio-2024/tree/master" target="_blank">
+                  <CTAButton
+                    href="https://github.com/maurajoglekar/maura-portfolio-2024/tree/master"
+                    target="_blank"
+                  >
                     this.portFolio.code
                   </CTAButton>
                 ) : null}
