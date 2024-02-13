@@ -14,8 +14,8 @@ export const HeroSection = () => {
     <StyledHeroSection id="hero-section">
       <HeroContent>
         <h1>Maura Joglekar</h1>
-        <h3>{"{Front-End Web Developer}"}</h3>
-        <p>HTML . CSS . JavaScript . React </p>
+        <h3>{"{Principal FrontEnd Developer}"}</h3>
+        <p>React . JavaScript . Redux . Saga . HTML . CSS </p>
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
