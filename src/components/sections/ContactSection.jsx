@@ -22,12 +22,6 @@ export const ContactSection = () => {
               "Hey!". Don't hesitate! Drop me a line and I’ll get back to you
               ASAP!
             </p>
-            <p>
-              <i>
-                For gig and advertising opportunities, begin your subject with{" "}
-                <strong>"Gig"</strong>
-              </i>
-            </p>
             <div>
               <a href="mailto:maurajoglekar@gmail.com">
                 <FaEnvelope /> <span>maurajoglekar@gmail.com</span>

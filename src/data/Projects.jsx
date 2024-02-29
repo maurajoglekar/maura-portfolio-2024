@@ -11,7 +11,7 @@ export const Projects = [
       "Express",
     ],
     paragraph:
-      "Updated version of the Chat application implemented for an interview 2 years ago.  The express server is deployed on Render.com.",
+      "Chat application initially implemented 2 years ago.  This project uses redux, saga, axios for doing the async calling of the APIs and storing the data in the store.  The express server providing the APIs is deployed on Render.com.",
     codelink: "https://github.com/maurajoglekar/chat-2024/tree/chat-only",
     projectlink: "https://maura-chat-2024.netlify.app",
     projectlinkText: "View Project",

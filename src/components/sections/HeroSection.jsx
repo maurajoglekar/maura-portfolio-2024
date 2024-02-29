@@ -19,7 +19,7 @@ export const HeroSection = () => {
         <div>
           <CTAButton href="#projects">Projects</CTAButton>
           <CTAButton href="#contact" primary margin="0 0 0 20px">
-            Hire Me
+            Contact Me
           </CTAButton>
         </div>
       </HeroContent>
